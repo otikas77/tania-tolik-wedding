@@ -119,7 +119,8 @@
   }
 
   .address--mobile {
-    display: block;
+    display: flex;
+    flex-direction: column;
     order: 1;
   }
 

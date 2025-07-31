@@ -32,7 +32,8 @@ export const Details = () => {
           <img src={map} alt="MAP" id="map" />
           <div className="address address--mobile">
             <span>Ресторан "Скіфія"</span>
-            <span>{ADDRESS}</span>
+            <span>Зимна Вода,</span>
+            <span>вул. Юліана Опільського, 15</span>
           </div>
         </div>
       </div>

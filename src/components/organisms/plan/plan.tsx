@@ -17,7 +17,7 @@ const PLAN = [
 export const Plan = () => {
   return (
     <section id={BLOCKS_ID.planSection}>
-      <h2>Як все буде відбуватись</h2>
+      <h2>Як все буде відбуватись?</h2>
       <div className="plan_wrapper">
         {PLAN.map(({ img, time, description }, i) => (
           <div className="plan_block" key={i}>

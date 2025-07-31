@@ -86,6 +86,11 @@ a {
   transition: 0.3s ease-in;
 }
 
+.plug {
+  display: none;
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 60px;
@@ -94,6 +99,10 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+  .plug {
+    display: block;
+  }
+
   section {
     padding: 40px 20px;
   }

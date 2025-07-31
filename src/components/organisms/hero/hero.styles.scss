@@ -28,6 +28,11 @@
   #heroSection > h1 {
     font-size: 80px;
   }
+
+  #heroSection {
+    background-attachment: unset;
+    background-image: url("../../../assets/hero-bg.jpg");
+  }
 }
 
 @media (max-width: 550px) {

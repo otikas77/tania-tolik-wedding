@@ -5,8 +5,9 @@ import { Hero } from "./components/organisms/hero/hero.component";
 import { Details } from "./components/organisms/details/details.component";
 import { Plan } from "./components/organisms/plan/plan";
 import { Presents } from "./components/organisms/presents/presents";
+import { Footer } from "./components/organisms/footer/footer";
 
-import img from './assets/full.jpg'
+import plug from './assets/plug.jpg';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
         <Hero />
         <Invitation />
         <Details />
-        <img src={img} className="full"/>
         <Plan />
+        <img  className='plug' src={plug} alt='plug' />
         <Colors />
         <Presents />
+        <Footer />
       </main>
     </>
   );
